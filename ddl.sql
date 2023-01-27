@@ -7,7 +7,6 @@ CREATE TABLE bike(
     category varchar(80) not null,
     tipo varchar(80) not null,
     orientation varchar(80) not null,
-    numero_bastidor int(9) not null unique,
     rent_date date not null
 ); 
 
