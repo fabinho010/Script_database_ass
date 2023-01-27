@@ -42,6 +42,10 @@ values(6,'Advanced','XS','Palma');
 INSERT into orientation(id,orientation_id,size,location)
 values(8,'Advanced','L','Alcudia');
 
+/* Data for the price */
+INSERT into orientation(numero_bastidor_id,price,available)
+values(123456789,33.00, 0);
+
 
 
 
