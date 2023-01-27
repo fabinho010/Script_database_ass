@@ -19,6 +19,13 @@ CREATE TABLE orientation(
     foreign key (id) references bike (id)
 );
 
+CREATET TABLE price(
+    numero_bastidor_id int(9) not null,
+    price DECIMAL (4,2);
+    available BOOLEAN
+    foreign key (numero_bastidor_id) references bike (numero_bastidor)
+)
+
 
 
 
