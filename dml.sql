@@ -21,25 +21,25 @@ INSERT into bike (id,brand,model,category,tipo,orientation,numero_bastidor,rent_
 values(10,'Cannonadale','Supersix EVO','Bicicleta Carretera',' Manual Bike','Casual', 326846738 , '2023-01-19');
 
 /* Data for the orientation */
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(10,'Casual','S','Palma');
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(5,'Casual','L','Palma');
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(3,'Advanced','M',' Manacor');
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(9,'Casual','XL','Inca');
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(2,'Advanced','XL','Alcudia');
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(4,'Advanced','XL','Manacor');
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(1,'Casual','M','Inca');
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(7,'Casual','L','Manacor');
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(6,'Advanced','XS','Palma');
-INSERT into orientation(bike_id,orientation_id,size,location)
+INSERT into orientation(id,orientation_id,size,location)
 values(8,'Advanced','L','Alcudia');
 
 
