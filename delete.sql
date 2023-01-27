@@ -1,0 +1,2 @@
+TRUNCATE TABLE bike;
+TRUNCATE TABLE orientation;
