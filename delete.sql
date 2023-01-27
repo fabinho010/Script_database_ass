@@ -1,2 +1,3 @@
 TRUNCATE TABLE bike;
 TRUNCATE TABLE orientation;
+TRUNCATE TABLE price;

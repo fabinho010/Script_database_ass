@@ -1,1 +1,1 @@
-DROP TABLE bike, orientation;
+DROP TABLE bike, orientation, price;

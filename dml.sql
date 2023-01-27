@@ -43,8 +43,26 @@ INSERT into orientation(id,orientation_id,size,location)
 values(8,'Advanced','L','Alcudia');
 
 /* Data for the price */
-INSERT into orientation(numero_bastidor_id,price,available)
-values(123456789,33.00, 0);
+INSERT into price(numero_bastidor_id,price,available)
+values(123456789,33.00, True);
+INSERT into price(numero_bastidor_id,price,available)
+values(784567893,37.00, False);
+INSERT into price(numero_bastidor_id,price,available)
+values(784789234,35.00, False);
+INSERT into price(numero_bastidor_id,price,available)
+values(678384789,33.00, True);
+INSERT into price(numero_bastidor_id,price,available)
+values(564768903,40.00, True);
+INSERT into price(numero_bastidor_id,price,available)
+values(398764365,43.00, True);
+INSERT into price(numero_bastidor_id,price,available)
+values(234786902,43.00, False);
+INSERT into price(numero_bastidor_id,price,available)
+values(685987349,37.00, True);
+INSERT into price(numero_bastidor_id,price,available)
+values(127659008,33.00, True);
+INSERT into price(numero_bastidor_id,price,available)
+values(326846738,43.00, False);
 
 
 
